@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main(){
+	a:=100
+	var b *int=&a
+	fmt.Println(a)
+	fmt.Println(&a)
+	fmt.Println(b)
+	fmt.Printf("%T\n",a)
+	fmt.Printf("%T\n",&a)
+	fmt.Printf("%T\n",b)
+}
