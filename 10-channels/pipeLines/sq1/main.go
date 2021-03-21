@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	a := gen(1, 2, 3)
 	b := sq(a)
-	fmt.Println(<-b)
+	fmt.Println(<-b )
 	fmt.Println(<-b)
 	fmt.Println(<-b)
 

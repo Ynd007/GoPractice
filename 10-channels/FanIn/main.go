@@ -18,7 +18,7 @@ func main(){
 		fmt.Println(v)
 	}
 
-	fmt.Println("about to exit")
+	fmt.Println("about to exit the program")
 }
 
 func send(even,odd chan<- int){

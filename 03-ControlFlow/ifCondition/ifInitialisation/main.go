@@ -4,7 +4,7 @@ import "fmt"
 
 func main(){
 	b:=true
-	if food:="Biryani"; b{
+	if food:="Dhum Biryani"; b{
 		fmt.Println(food)
 	}
 }

@@ -19,7 +19,7 @@ func main() {
 		fmt.Println(v)
 	}
 
-	fmt.Println("about to exit")
+	fmt.Println("about to exit the Program")
 }
 
 func populate(c chan int) {

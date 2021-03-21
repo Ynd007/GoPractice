@@ -1,3 +1,3 @@
 package calculations
-var X =20
+var X =10
 

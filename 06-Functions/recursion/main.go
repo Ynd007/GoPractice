@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main(){
-	sum:=SumRec(10)
+	sum:=SumRec(11)
 	fmt.Println(sum)
 }
 func SumRec(n int) int{

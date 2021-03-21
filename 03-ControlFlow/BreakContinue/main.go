@@ -8,7 +8,7 @@ func main() {
 
 	for {
 
-			if count==100{
+			if count==101{
 				break
 			} else if i%2==0{
 			count++

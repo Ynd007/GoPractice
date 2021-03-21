@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main(){
-	var x [57]string
+	var a [57]string
 	for i:=65; i<=122; i++{
-		x[i-65]=string(i)
+		a[i-65]=string(i)
 	}
-	fmt.Println(x)
+	fmt.Println(a)
 }

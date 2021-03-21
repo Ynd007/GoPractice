@@ -13,7 +13,7 @@ type person struct{
 }
 func main(){
 	var p1 person
-	rdr:=strings.NewReader(`{"First":"James","Last":"Bond","Age":20}`)
+	rdr:=strings.NewReader(`{"First":"raj","Last":"kumar","Age":20}`)
 	json.NewDecoder(rdr).Decode(&p1)
 	fmt.Println(p1.First)
 	fmt.Println(p1.Last)

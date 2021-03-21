@@ -6,10 +6,10 @@ func main(){
 	ch:=10
 	switch ch{
 	case 1,4,10:
-		fmt.Println("Iam at One")
+		fmt.Println("Iam in One")
 	case 2:
-		fmt.Println("Iam at Two")
+		fmt.Println("Iam in Two")
 	default:
-		fmt.Println("Iam at Default")
+		fmt.Println("Iam in Default")
 	}
 }

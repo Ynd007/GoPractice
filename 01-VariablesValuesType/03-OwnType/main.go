@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-type narendra int
+type naren int
 func main(){
-var a narendra=1000
+var a naren=1000
 fmt.Println(a)
 fmt.Printf("%T",a)
 }

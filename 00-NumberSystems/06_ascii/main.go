@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main(){
-	a:= int('c')
-	fmt.Printf("Ascii value for %c is %d",'c',a)
+	a:= int('b')
+	fmt.Printf("Ascii value for %c is %d",'b',a)
 }

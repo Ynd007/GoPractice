@@ -11,7 +11,7 @@ func main() {
 }
 
 func increment() chan int {
-	out := make(chan int)
+	out := make(chan int )
 	go func() {
 		for i := 0; i < 100; i++ {
 			out <- i

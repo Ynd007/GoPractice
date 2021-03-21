@@ -11,6 +11,6 @@ func main() {
 		close(c)
 	}()
 	for v := range c {
-		fmt.Println(v)
+		fmt.Println(v )
 	}
 }

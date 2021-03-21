@@ -12,6 +12,6 @@ type person struct{
 	notExpctd int
 }
 func main(){
-	p1:=person{"James","Bond",20,007,}
+	p1:=person{"raj","kumar",20,007,}
 	json.NewEncoder(os.Stdout).Encode(p1)
 }

@@ -6,7 +6,7 @@ import (
 )
 
 func main(){
-	s:=[]string{"zen","jam","ram"}
+	s:=[]string{"zen","jam","ram","bheem"}
 	fmt.Println(s)
 
 

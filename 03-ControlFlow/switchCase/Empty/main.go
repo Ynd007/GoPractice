@@ -6,9 +6,9 @@ func main(){
 
 	switch {
 	case true:
-		fmt.Println("Iam at One")
+		fmt.Println("Iam at true")
 	case false:
-		fmt.Println("Iam at Two")
+		fmt.Println("Iam at false")
 	default:
 		fmt.Println("Iam at Default")
 	}

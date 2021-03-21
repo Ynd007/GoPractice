@@ -16,7 +16,7 @@ func main() {
 	go incrementor("Foo :")
 	go incrementor("bar :")
 	wg.Wait()
-	fmt.Println("Final counter :", counter)
+	fmt.Println("Final counter Value:", counter)
 }
 func incrementor(s string) {
 	for i := 0; i < 30; i++ {

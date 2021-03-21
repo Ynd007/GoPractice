@@ -5,7 +5,7 @@ import "fmt"
 func main(){
 	i:=0
 	for{
-		if i==101{
+		if i==100{
 			break
 		}
 		fmt.Println(i)

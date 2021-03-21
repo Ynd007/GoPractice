@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main(){
-	m:=make(map[string]int)
-	m["king"]=1
-	m["kong"]=2
-	fmt.Println(m)
-	m["kong"]=3 //updating
-	delete(m,"king") //delete
-	fmt.Println(m)
+	ma:=make(map[string]int)
+	ma["king"]=1
+	ma["kong"]=2
+	fmt.Println(ma)
+	ma["kong"]=3 //updating
+	delete(ma,"king") //delete
+	fmt.Println(ma)
 
 
 }

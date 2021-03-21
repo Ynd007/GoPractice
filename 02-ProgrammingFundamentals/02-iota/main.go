@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const(
-	 x=2000+iota
+	 x=200+iota
 	 y
 	 z
 )

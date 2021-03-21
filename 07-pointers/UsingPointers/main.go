@@ -6,7 +6,7 @@ func check(x *int){
 	*x=0
 }
 func main(){
-	x:=5
+	x:=4
 	fmt.Println("Before",x)
 	check(&x)
 	fmt.Println("After",x)

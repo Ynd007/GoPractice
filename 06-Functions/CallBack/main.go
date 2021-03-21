@@ -8,7 +8,7 @@ func visit(numbers []int,callback func(n int)){
 	}
 }
 func main(){
-visit([]int{1,2,3},func(n int){
+visit([]int{1,2,3,4},func(n int){
 	fmt.Println(n)
 	})
 }

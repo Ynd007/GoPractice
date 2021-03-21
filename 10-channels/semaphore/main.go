@@ -23,6 +23,6 @@ func main() {
 		close(c)
 	}()
 	for i := range c {
-		fmt.Println(i)
+		fmt.Println(i )
 	}
 }

@@ -8,5 +8,5 @@ func main() {
 		c <- 1
 
 	}()
-	fmt.Println(<-c)
+	fmt.Println(<-c )
 }

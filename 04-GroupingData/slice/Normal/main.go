@@ -4,6 +4,7 @@ import "fmt"
 
 func main(){
 	slice:=[]int{1,2,3,4,5}
+	//length
 	fmt.Println(len(slice))
 	fmt.Println(cap(slice))
 	for i,v:=range slice{

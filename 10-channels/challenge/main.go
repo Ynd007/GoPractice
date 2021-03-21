@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	n := 5
+	n := 6
 	c := make(chan int)
 
 	go func() {

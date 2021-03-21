@@ -23,7 +23,7 @@ func main() {
 		wg.Done()
 	}()
 	go func() {
-		fmt.Println("Before wait")
+		fmt.Println("Before wait ")
 		wg.Wait()
 		fmt.Println("After wait")
 		fmt.Println("Before close")

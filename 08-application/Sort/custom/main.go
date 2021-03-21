@@ -16,10 +16,10 @@ func (a ByAge) Less(i,j int) bool	{return a[i].Age<a[j].Age}
 
 func main(){
 	p1:=Person{
-		"Bob",31,
+		"krish",31,
 		}
 	p2:=Person{
-		"cob",12,
+		"mahesh",12,
 	}
 	person:=[]Person{p1,p2}
 	sort.Sort(ByAge(person))

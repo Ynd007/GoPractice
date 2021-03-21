@@ -1,5 +1,5 @@
 package calculations
 
-func CalSum (  x,y int)int{
-	return x+y;
+func CalSum (  a,b int)int{
+	return a+b;
 }

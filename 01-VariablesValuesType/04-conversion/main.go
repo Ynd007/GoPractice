@@ -4,7 +4,7 @@ import "fmt"
 
 type narendra int
 func main(){
-	var a narendra=1000
+	var a narendra=100
 	fmt.Println(a)
 	fmt.Printf("%T\n",a)
 	y:=int(a)

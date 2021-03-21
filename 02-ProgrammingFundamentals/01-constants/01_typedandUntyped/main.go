@@ -6,12 +6,12 @@ const a=10 //untyped
 const b int=20 //typed
 const(
 	c=30
-	d int=40
+	d int=50
 )
 func main(){
 	const a=60
-	fmt.Println(a)//60
-	fmt.Println(a)//60
+	fmt.Println(a)
+	fmt.Println(a)
 
 	fmt.Println(b)
 	fmt.Println(c)

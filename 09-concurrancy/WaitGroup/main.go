@@ -14,13 +14,13 @@ func main(){
 }
 func foo(){
 	for i:=0; i<30; i++{
-		fmt.Println("foo ",i)
+		fmt.Println("foo val ",i)
 	}
 	wg.Done()
 }
 func bar(){
 	for i:=0; i<30; i++{
-		fmt.Println("bar ",i)
+		fmt.Println("bar val ",i)
 	}
 	wg.Done()
 }

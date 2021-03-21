@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main(){
-var name interface{}="Ongole"
+var name interface{}="Hyderabad"
 fmt.Println(name)
 fmt.Printf("%T\n",name)
 

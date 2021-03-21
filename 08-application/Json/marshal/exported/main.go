@@ -12,7 +12,7 @@ type person struct{
 func main(){
 	p1:=person{
 		"ram",
-		"raj",
+		"krish",
 	}
 	bs,_:=json.Marshal(p1)
 	fmt.Println(bs)

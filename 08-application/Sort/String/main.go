@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	xs := []string{"James", "Q", "M", "Moneypenny", "Dr. No"}
+	xs := []string{"Krish", "Q", "M", "Ram", "Mr. krish"}
 
 	fmt.Println(xs)
 	sort.Strings(xs)

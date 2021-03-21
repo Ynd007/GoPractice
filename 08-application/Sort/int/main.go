@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	xi := []int{4, 7, 3, 42, 99, 18, 16, 56, 12}
+	xi := []int{4, 7, 3, 42, 99, 18, 16, 56, 2}
 
 
 	fmt.Println(xi)

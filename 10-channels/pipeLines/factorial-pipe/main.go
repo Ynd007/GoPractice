@@ -7,7 +7,7 @@ func main() {
 		a := factorial(i)
 		b := sq(a)
 		for j:=range b {
-			fmt.Println(j)
+			fmt.Println(j )
 		}
 	}
 }

@@ -12,5 +12,5 @@ func send(c chan<- int) {
 	c<-5
 }
 func receive(c <-chan int) {
-	fmt.Println(<-c)
+	fmt.Println(<-c )
 }

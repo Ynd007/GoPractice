@@ -16,7 +16,7 @@ func main(){
 	p2:=person{
 		"ram",
 		"raj",
-		200000,
+		20000,
 	}
 	fmt.Println(p1)
 	fmt.Println(p2)

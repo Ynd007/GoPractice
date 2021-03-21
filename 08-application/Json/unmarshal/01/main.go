@@ -12,7 +12,7 @@ type person struct{
 }
 func main(){
 	var p1 person
-	bs:=[]byte(`{"first":"narendra","last":"y","age":23}`)
+	bs:=[]byte(`{"first":"narendra","last":"Modi","age":23}`)
 	json.Unmarshal(bs,&p1)
 	fmt.Println(p1.First)
 	fmt.Println(p1.Last)

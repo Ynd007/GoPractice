@@ -6,10 +6,10 @@ func main(){
 	var x int
 	var y float64
 	var z bool
-	var s string
+	var a string
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
-	fmt.Println(s)
+	fmt.Println(a)
 
 }

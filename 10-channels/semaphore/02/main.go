@@ -18,7 +18,7 @@ func main() {
 		for i := 0; i < n; i++ {
 			<-done
 		}
-		close(c)
+		close(c )
 	}()
 	for n := range c {
 		fmt.Println(n)
